@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SILAKAN GANTI JUDUL TAB BROWSER DI BAWAH INI -->
+    <title>Toko Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- SILAKAN GANTI NAMA TOKO DAN ICON (EMOJI) DI BAWAH INI -->
+        <h1>🛍️ Toko Keren SMA</h1>
+        
+        <!-- BAGIAN INI UNTUK MENAMPILKAN KERANJANG (TIDAK PERLU DIUBAH) -->
+        <div class="cart-icon" id="cart-icon">
+            🛒 Keranjang (<span id="cart-count">0</span>)
+        </div>
+    </header>
+
+    <main>
+        <!-- DAFTAR PRODUK AKAN OTOMATIS MUNCUL DI SINI DARI JAVASCRIPT -->
+        <section class="product-list" id="product-list">
+            <!-- Kosong karena akan diisi oleh script.js -->
+        </section>
+
+        <!-- BAGIAN SIDEBAR UNTUK KERANJANG BELANJA (TIDAK PERLU DIUBAH) -->
+        <section class="cart-sidebar" id="cart-sidebar">
+            <h2>Keranjang Belanja</h2>
+            <div id="cart-items">
+                <p>Keranjang masih kosong.</p>
+            </div>
+            <div class="cart-total">
+                <strong>Total: Rp <span id="total-price">0</span></strong>
+            </div>
+            <!-- TEKS PADA TOMBOL BISA DIGANTI -->
+            <button id="checkout-btn" class="checkout-btn">Bayar Sekarang</button>
+        </section>
+    </main>
+
+    <!-- PANGGIL FILE JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
