@@ -5,24 +5,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* SILAKAN GANTI JENIS FONT DI BAWAH INI (Contoh: Arial, 'Courier New', dll) */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: /* KETIK NAMA FONT DI SINI (CONTOH: 'Arial', sans-serif) */;
 }
 
 body {
-    /* SILAKAN GANTI WARNA BACKGROUND HALAMAN (Bisa pakai nama warna: pink, lightblue, dll) */
-    background-color: #f4f7f6;
-    color: #333;
+    background-color: /* KETIK KODE WARNA BACKGROUND HALAMAN DI SINI (CONTOH: #f4f7f6 atau lightblue) */;
+    color: /* KETIK WARNA TEKS UTAMA DI SINI (CONTOH: #333 atau black) */;
 }
 
 /* ============================================================================
    BAGIAN 2: TAMPILAN ATAS (HEADER)
    ============================================================================ */
 header {
-    /* SILAKAN GANTI WARNA BACKGROUND KEPALA HALAMAN / HEADER */
-    background-color: #2c3e50; 
-    /* SILAKAN GANTI WARNA TEKS JUDUL TOKO */
-    color: white;
+    background-color: /* KETIK WARNA BACKGROUND KEPALA HALAMAN DI SINI (CONTOH: #2c3e50) */; 
+    color: /* KETIK WARNA TEKS KEPALA HALAMAN DI SINI (CONTOH: white) */;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -32,8 +28,7 @@ header {
 .cart-icon {
     font-size: 1.2rem;
     cursor: pointer;
-    /* SILAKAN GANTI WARNA TOMBOL KERANJANG DI POJOK KANAN ATAS */
-    background-color: #e74c3c;
+    background-color: /* KETIK WARNA BACKGROUND TOMBOL KERANJANG DI SINI (CONTOH: #e74c3c) */;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -52,7 +47,6 @@ main {
 .product-list {
     flex: 3;
     display: grid;
-    /* Ukuran kartu bisa diperbesar dengan mengubah angka 250px di bawah ini */
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 }
@@ -67,25 +61,22 @@ main {
 
 .product-card img {
     width: 100%;
-    /* SILAKAN GANTI TINGGI GAMBAR PRODUK JIKA TERLALU KECIL/BESAR */
-    height: 200px;
+    height: /* KETIK TINGGI GAMBAR PRODUK DI SINI (CONTOH: 200px) */;
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
 .product-card p {
-    /* SILAKAN GANTI WARNA TEKS HARGA PRODUK */
-    color: #27ae60;
+    color: /* KETIK WARNA TEKS HARGA PRODUK DI SINI (CONTOH: #27ae60) */;
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 15px;
 }
 
 .product-card button {
-    /* SILAKAN GANTI WARNA TOMBOL "TAMBAH KE KERANJANG" */
-    background-color: #3498db;
-    color: white;
+    background-color: /* KETIK WARNA TOMBOL "TAMBAH KE KERANJANG" DI SINI (CONTOH: #3498db) */;
+    color: /* KETIK WARNA TEKS TOMBOL TAMBAH DI SINI (CONTOH: white) */;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -107,9 +98,8 @@ main {
 }
 
 .checkout-btn {
-    /* SILAKAN GANTI WARNA TOMBOL "BAYAR SEKARANG" */
-    background-color: #2ecc71;
-    color: white;
+    background-color: /* KETIK WARNA TOMBOL "BAYAR SEKARANG" DI SINI (CONTOH: #2ecc71) */;
+    color: /* KETIK WARNA TEKS TOMBOL BAYAR DI SINI (CONTOH: white) */;
     border: none;
     padding: 15px;
     border-radius: 5px;
@@ -122,7 +112,7 @@ main {
 .remove-btn {
     background: none;
     border: none;
-    color: #e74c3c;
+    color: /* KETIK WARNA TEKS TOMBOL HAPUS DI SINI (CONTOH: #e74c3c) */;
     cursor: pointer;
     text-decoration: underline;
 }
